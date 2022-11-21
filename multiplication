@@ -1,0 +1,12 @@
+# program for multiplication of two numbers
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+c=a*b
+print(c)
+
+OUTPUT:
+enter a value:234
+enter b value:34
+7956
+> 
+ 

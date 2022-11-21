@@ -1,0 +1,11 @@
+# program for adding of two numbers
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+c=a+b
+print(c)
+
+OUTPUT:
+enter a value:20
+enter b value:30
+50
+

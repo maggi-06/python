@@ -1,0 +1,12 @@
+# program for substraction of two numbers
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+c=a-b
+print(c)
+
+OUTPUT:
+enter a value:40
+enter b value:50
+-10
+>
+

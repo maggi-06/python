@@ -1,0 +1,11 @@
+# program for division of two numbers
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+c=a/b
+print(c)
+
+OUTPUT:
+enter a value:25
+enter b value:3
+8.333333333333334
+> 

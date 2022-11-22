@@ -1,0 +1,13 @@
+# swapping of two numbers without 3rd variable
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a+b
+b=a-b
+a=a-b
+print('a value:',a,'b value:',b)
+
+output:
+enter a:20
+enter b:10
+a value: 10 b value: 20
+> 

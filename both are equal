@@ -1,0 +1,10 @@
+a=56
+b=45
+if a==b:
+    print('both a and b are equal')
+else:
+    print('both a and b are not equal')
+    
+output:
+both a and b are not equal
+> 

@@ -1,0 +1,18 @@
+# relational operators
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+if a>b and a>=b:
+ print('a is big')
+else:
+    print('b is big')
+if a==b:
+    print('a is equal to b')
+else:
+    print('a is not equal to b')
+    
+    output:
+    enter a number23
+enter a number22
+a is big
+a is not equal to b
+> 

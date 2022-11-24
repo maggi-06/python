@@ -1,0 +1,22 @@
+# program on arthematic operations
+a=int(input('enter a number:'))
+b=int(input('enter b number:'))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+print(a//b)
+
+output:
+enter a number:35
+enter b number:10
+45
+25
+350
+3.5
+5
+2758547353515625
+3
+> 

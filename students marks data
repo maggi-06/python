@@ -1,0 +1,27 @@
+#students marks data
+sno=int(input('enter sno number:'))
+name=input('enter name:')
+group=input('enter group:')
+s1=int(input('enter s1 marks:'))
+s2=int(input('enter s2 marks:'))
+s3=int(input('enter s3 marks:'))
+print('sno',sno)
+print('name',name)
+print('group',group)
+if s1>=35 and s2>=35 and s3>=35:
+  print('student will pass')
+else:
+  print('student will fail')
+
+output:
+enter sno number:123
+enter name:rani
+enter group:bca
+enter s1 marks:65
+enter s2 marks:74
+enter s3 marks:73
+sno 123
+name rani
+group bca
+student will pass
+> 

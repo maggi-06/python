@@ -1,0 +1,10 @@
+# to caliculate sum of even numbers for the list
+list=[1,4,5,7,8,3,10]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+print('sum of the even numbers is=',sum)
+output:
+sum of the even numbers is= 22
+> 

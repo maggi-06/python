@@ -1,0 +1,11 @@
+#find out the given element in the list or not
+list=[1,2,4,5,6]
+n=int(input('enter a number'))
+if n in list:
+    print('number is available in list')
+else:
+    print('number is not available')
+    
+    output:
+    enter a number 3
+    number is not available

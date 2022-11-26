@@ -1,0 +1,14 @@
+#program on bitwise and,or,exclusive or
+a=int(input('enter a number:'))
+b=int(input('enter b number:'))
+print(a&b)
+print(a|b)
+print(a^b)
+
+output:
+enter a number:10
+enter b number:12
+8
+14
+6
+> 

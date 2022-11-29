@@ -1,0 +1,24 @@
+#program to check  the student is pass or fail
+sno=int(input('enter sno:'))
+sname=input('enter sname:')
+group=input('enter group:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter english marks:'))
+s3=int(input('enter computer marks:'))
+if s1>=35: 
+ if s2>=35: 
+  if s3>=35:
+    print('all are pass')
+else:
+    print('fail')
+    
+output:
+enter sno:234
+enter sname:maggi
+enter group:mecs
+enter maths marks:45
+enter english marks:56
+enter computer marks:77
+all are pass
+> 
+

@@ -1,0 +1,35 @@
+#program to caliculate the employee salary
+eno=int(input('enter empno:'))
+ename=input('enter ename:')
+edesignation=input('enter edesignation:')
+basicsal=45000
+hra=int(input('enter hra:'))
+da=int(input('enter da:'))
+ta=int(input('enter ta:'))
+netsalary=basicsal+da+ta+hra
+if netsalary>100000:
+    tax=netsalary*10/100
+    print(' the tax is:',tax)
+elif netsalary>50000:
+    tax=netsalary*7/100
+    print('the tax is:',tax)
+elif netsalary>40000:
+    tax=netsalary*4/100
+    print(' the tax is:',tax)
+elif netsalary>20000:
+    tax=netsalary*2/100
+    print(' the tax is:',tax)
+elif netsalary<20000:
+    tax=0
+    print('the tax is:',tax)
+else:
+    print('no tax')
+output:
+enter empno:3456
+enter ename:ram
+enter edesignation:hr
+enter hra:4000
+enter da:3000
+enter ta:3500
+the tax is: 3885.0
+> 

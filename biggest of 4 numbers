@@ -1,0 +1,27 @@
+#program to find the biggest of 4 numbers
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
+c=int(input('enter c value:'))
+d=int(input('enter d value:'))
+if a>b:
+    if a>c:
+        if a>d:
+            print('a is big')
+if b>a:
+    if b>c:
+        print('b is big')
+if c>a:
+    if c>d:
+        print('c is big')
+if d>c:
+    print('d is big')
+else:
+    print('all are big')
+            
+output:
+enter a value:10
+enter b value:20
+enter c value:30
+enter d value:40
+d is big
+> 

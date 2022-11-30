@@ -1,0 +1,16 @@
+#program to caliculate e-bill
+amp=int(input('enter the amperes:'))
+volt=int(input('enter the volts:'))
+useage=int(input('enter you have used current:'))
+rate=int(input('enter electicity rate:'))
+watts=amp*volt
+kilowatts=watts*useage/1000
+bill=kilowatts*rate
+print('the electicity bill is:',bill)
+output:
+enter the amperes:300
+enter the volts:200
+enter you have used current:300
+enter electicity rate:20
+the electicity bill is: 360000.0
+> 

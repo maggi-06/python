@@ -1,0 +1,44 @@
+#way-1:
+def biggest(a,b):
+ if a>b:
+     print('a is big')
+ else:
+     print('b is big')
+a=int(input())
+b=int(input())
+biggest(a,b)
+output:
+20
+30
+b is big
+#way-2
+def biggest(a,b):
+ if a>b:
+     return 'a big'
+ else:
+     return 'b big'
+a=int(input())
+b=int(input())
+print(biggest(a,b))
+output:
+30
+25
+a big
+#way-3
+def biggest(a,b):
+ if a>b:
+     return 'a big'
+ else:
+     return 'b big'
+a=int(input())
+b=int(input())
+if(biggest(a,b)):
+    print('a big')
+else:
+    print('b  big')
+output:
+40
+23
+a big
+
+

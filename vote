@@ -1,0 +1,36 @@
+way-1
+def elligible(age):
+    if age>=18:
+        print('elligible for vote')
+    else:
+        print('not elligible for vote')
+age=int(input())
+elligible(age)
+output:
+14
+not elligible for vote
+way-2
+def elligible(age):
+    if age>=18:
+        return'elligible'
+    else:
+         return 'not elligible'
+age=int(input())
+print(elligible(age))
+output:
+19
+elligible
+way-3
+def elligible(age):
+    if age>=18:
+        return'elligible'
+    else:
+         return 'not elligible'
+age=int(input())
+if (elligible(age)):
+    print('elligible')
+else:
+    print('not elligible')
+output:
+16
+elligible

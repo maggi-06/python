@@ -1,0 +1,44 @@
+#program on leap year using functions
+#way-1
+def leapyear(n):
+ if n%4==0 and n%100!=0:
+    print('leap year')
+ elif n%400==0:
+    print('leap year')
+ else:
+    print('not leap year')
+n=int(input())
+leapyear(n)
+output:
+2000
+leap year
+#way-2:
+def leapyear(n):
+ if n%4==0 and n%100!=0:
+     return 'true'
+  elif n%400==0:
+     return 'true'
+ else:
+    return 'odd'
+n=int(input())
+print(leapyear(n))
+output:
+2003
+odd
+#way-3
+def leapyear(n):
+ if n%4==0 and n%100!=0:
+     return 'true'
+ elif n%400==0:
+     return 'true'
+ else:
+    return 'odd'
+n=int(input())
+if (leapyear(n)):
+    print('even')
+else:
+    print('odd')
+output:
+2004
+even
+

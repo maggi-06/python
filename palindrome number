@@ -1,0 +1,18 @@
+#program on palindrome number
+n=int(input())
+s=0
+while(n!=0):
+    r=n%10
+    s=s*10+r
+    n=n//10
+if n==s:
+    print('It is a palindrome')
+else:
+    print('It is not a palindrome')
+
+OUTPUT-1:
+134
+It is not a palindrome
+OUTPUT-2:
+111
+It is a palindrome

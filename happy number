@@ -1,0 +1,15 @@
+#program on happy number
+n=int(input())
+s=0
+while(n!=0):
+    r=n%10
+    s=s+(r*r)
+    n=n//10
+if(n==1 or n==7):
+     
+     print('happy number')
+else:
+     print('not happy number')
+output:
+82
+not happy number

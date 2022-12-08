@@ -1,0 +1,14 @@
+#program to find a matrix
+r=int(input("enter your row:"))
+c=int(input("enter your coloumn:"))
+k=r*r
+for i in range(1,r+1):
+    for j in range(1,c+1):
+        print(k,end=' ')
+        k=k-1
+    print()
+output:
+enter your row:2
+enter your coloumn:2
+4 3 
+2 1 

@@ -1,0 +1,27 @@
+#program to print the max and min value of a list
+l=[]
+n=int(input())
+for i in range(0,n,1):
+    x=int(input())
+    l.append(x)
+print(l)
+big=l[0]
+small=l[0]
+for i in range(1,n):
+    if l[i]>big:
+        big=l[i]
+    if l[i]<small:
+        small=l[i]
+print(big)
+print(small)
+
+output:
+5
+32
+34
+55
+67
+45
+[32, 34, 55, 67, 45]
+67
+32

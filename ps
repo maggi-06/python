@@ -1,0 +1,13 @@
+#program on positive and negative
+n=int(input('enter a number'))
+ol=list(map(int,input().split()))
+pl=[]
+nl=[]
+for i in range(0,n):
+    if ol[i]>=0:
+        pl.append(ol[i])
+    else:
+        nl.append(ol[i])
+l=pl+nl
+for i in l:
+    print(i,end=' ')

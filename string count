@@ -1,0 +1,12 @@
+#program on string count
+str=input("enter any string:")
+l=len(str)
+count=0
+for i in range(0,l):
+    if str[i].isalpha()==1:
+        count=count+1
+        
+print(count)
+output:
+enter any string:welcome
+7

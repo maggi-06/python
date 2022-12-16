@@ -1,0 +1,13 @@
+#program to read the string.
+str=input("enter any string:")
+l=len(str)
+print("no of charecters in the string are:",l)
+print("uppercase",str.upper())
+print("lowercase",str.lower())
+print("swapcase",str.swapcase())
+output:
+enter any string:Welcome To Python
+no of charecters in the string are: 17
+uppercase WELCOME TO PYTHON
+lowercase welcome to python
+swapcase wELCOME tO pYTHON

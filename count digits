@@ -1,0 +1,12 @@
+#program to count the number of digits
+str=input("enter any string:")
+l=len(str)
+count=0
+for i in range(0,l):
+    if str[i].isdigit()==1:
+        count=count+1
+        
+print(count)
+output:
+enter any string:welcome  to 11234
+5

@@ -1,14 +1,14 @@
-# program to con=int(input('enter a number'))
-count=0
+# program to print prime or not
+int(input('enter a number'))
 for num in range(n):
     if num<=1:
         continue
     for i in range(2,num):
         if num%i==0:
-            break
+        print("prime")
     else:
-        count=count+1
-print(count)
+        print("not prime")
+
 output:
 enter a number 20
-8
+not prime

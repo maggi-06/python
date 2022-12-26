@@ -1,0 +1,9 @@
+num = float(input())
+ squareRoot = num**0.5
+if squareRoot>10:
+    print('Hello')
+else:
+    print('Hi')
+output:
+625
+Hello

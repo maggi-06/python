@@ -1,0 +1,17 @@
+def sumofnnumber(n):
+    s=0
+    while(n!=0):
+        r=n%10
+        s=s+(r*r)
+        n=n/10
+    return s
+n=int(input())
+while(n>9):
+    n=sumofnnumber(n-1)
+if(n==1 or n==7):
+    print('happpy number')
+else:
+    print('not happy number')
+output:
+ 82
+not happy number

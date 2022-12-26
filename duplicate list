@@ -1,0 +1,8 @@
+def unique_numbers(duplicate): 
+   unique_numbers_set = set(duplicate) 
+   unique_numbers_list = list(unique_numbers_set) 
+   return unique_numbers_list
+n= int(input())
+x=input().split()
+l=[]
+print(unique_numbers(l))

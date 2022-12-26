@@ -1,0 +1,21 @@
+def max_check(x):
+  max_val = x[0] 
+  for check in x: 
+    if check > max_val: 
+      max_val = check 
+  return max_val
+  def min_check(x):
+      min_val = x[0] 
+      for check in x: 
+          if check < min_val: 
+          min_val = check 
+      return min_val
+num = int(input("Enter the number: "))
+x=input().split()
+l=[]
+if num > 1:
+    for i in range(2,num):
+        if (num % i) == 0:
+                print(max_val)
+        else:
+            print(min_val)
